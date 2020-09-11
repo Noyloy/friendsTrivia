@@ -21,13 +21,12 @@ const qs = [
         QTitle: "\"Huh. I would've thought it was the other way around.\"",
         QContent: "Who Trigger though was the \"duck\"?",
         QOpts: {opts:["Chandler", "Joey", "Phobe", "Ross"], value:"Joey"},
-        QCover: "https://y.yarn.co/51c42ac9-c7f2-436f-b3b8-38a879940edd_screenshot.jpg"
     },
     {
         QTitle: "\"Huh. I would've thought it was the other way around.\"",
         QContent: "Who Trigger though was the \"duck\"?",
         QOpts: {opts:["Chandler", "Joey", "Phobe", "Ross"], value:"Joey"},
-        QCover: "https://y.yarn.co/51c42ac9-c7f2-436f-b3b8-38a879940edd_screenshot.jpg"
+        QCover: ""
     }
 ]
 

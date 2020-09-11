@@ -3,6 +3,9 @@ export const environment = {
     constants: {
       db: {
         users: 'users',
+      },
+      question: {
+        image : "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/friends-tv-show-1542126105.jpg?resize=500:*"
       }
     },
     firebase: {

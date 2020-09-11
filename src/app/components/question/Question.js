@@ -6,6 +6,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import QuestionOptions from './QuestionOptions';
 import Typography from '@material-ui/core/Typography';
+import {environment as env} from '../../../environments/environment.prod';
 
 const useStyles = makeStyles({
   root: {
@@ -24,7 +25,7 @@ export default function Question({QTitle, QContent, QOpts, QCover}) {
           component="img"
           alt="friendsQuestionCover"
           height="300"
-          image={QCover}//"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/friends-tv-show-1542126105.jpg?resize=*:200"
+          image={!!QCover? QCover : env.constants.question.image}
           title="friendsQuestionCover"
         />
         <CardContent>
